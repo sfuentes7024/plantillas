@@ -1,0 +1,3 @@
+El motor de plantilla que más me gustó fue Handlebars, ya que siento que es mas encapsulable y mantenible el código.
+El que menos me gustó fué Pug, ya que me parece que hay poca documentación en internet para solucionar ciertos problemas y me parece, a primera impresión,
+poco mantenible y bastante sensible a espacios y otras cosas.
