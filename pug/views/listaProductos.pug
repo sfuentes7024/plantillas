@@ -1,0 +1,25 @@
+html
+    head
+      title Productos
+    body
+      div
+        a(href=addProductLink)
+Crear
+    h2 Lista de Productos
+
+    if productList
+        table 
+          thead 
+            tr 
+              td Nombre 
+              td Precio 
+              td Foto 
+            tbody 
+              each product in
+listadoProductos 
+            tr 
+              td=product.title 
+              td=product.price 
+              td=product.thumbnail 
+                else 
+                  No se encontraron productos 
